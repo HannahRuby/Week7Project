@@ -42,23 +42,32 @@ const UserPage = () => {
         <ul>
           <Link to={"/users"}>
             User's profile
-            <img src="./public/assets /Jessica Smith.jpg" alt="Jessica Smith" />
+            <img
+              src="./src/Components/assets /Jessica Smith.jpg"
+              alt="Jessica Smith"
+            />
             Jessica Smith
           </Link>
           <Link to="/userprofile">
-            <img src="./public/assets /Jane Doe.jpg" alt="Jane Doe" />
+            <img src="./src/Components/assets /Jane Doe.jpg" alt="Jane Doe" />
             Jane Doe
           </Link>
           <Link to="/userprofile">
-            <img src="./public/assets /John Doe.jpg" alt="John Doe" />
+            <img src="./src/Components/assets /John Doe.jpg" alt="John Doe" />
             John Doe
           </Link>
           <Link to="/userprofile">
-            <img src="./public/assets /Mike Brown.jpg" alt="Mike Brown" />
+            <img
+              src="./src/Components/assets /Mike Brown.jpg"
+              alt="Mike Brown"
+            />
             Mike Brown
           </Link>
           <Link to="/userprofile">
-            <img src="./public/assets /Sarah Smith.jpg" alt="Sarah Smith" />
+            <img
+              src="./src/Components/assets /Sarah Smith.jpg"
+              alt="Sarah Smith"
+            />
             Sarah Smith
           </Link>
         </ul>

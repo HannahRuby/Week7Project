@@ -34,7 +34,7 @@ export default function About() {
         networking. Together, let's create a community where success knows no
         bounds.
       </div>
-      <img src="./public/assets /About.webp"></img>
+      <img src="./src/Components/assets /About.webp"></img>
     </div>
   );
 }

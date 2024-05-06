@@ -43,9 +43,7 @@ values(
   "Sydney, NSW, Australia",
   "Creative graphic designer with a passion for visual storytelling and branding");
 // INSERT INTO
-const insert = db.prepare(
-  `INSERT INTO posts (content,full_name) VALUES (?, ?)`
-);
+const insert = `INSERT INTO posts (content,full_name) VALUES (?, ?)`;
 insert;
 posts(content, full_name);
 VALUES(

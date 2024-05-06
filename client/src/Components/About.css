@@ -1,0 +1,19 @@
+.about-page {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.about-page h2 {
+  text-align: center;
+}
+
+.about-page .aboutText {
+  margin-bottom: 20px;
+}
+
+.about-page img {
+  display: block;
+  max-width: 100%;
+  margin: 0 auto;
+}

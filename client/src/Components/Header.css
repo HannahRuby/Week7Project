@@ -1,0 +1,40 @@
+header {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header h1 {
+  font-size: 24px;
+  margin: 0;
+}
+
+nav {
+  margin-top: 10px;
+  margin-left: auto;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+nav a:last-child {
+  margin-right: 0;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+header img {
+  max-height: 100%;
+  max-width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}

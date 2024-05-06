@@ -1,0 +1,36 @@
+.user-page {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.user-page h1 {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.user-page h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.individual-detail-box {
+  background-color: #f8f8f8;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 15px;
+  margin-bottom: 10px;
+}
+
+.individual-detail-box p {
+  margin: 5px 0;
+}
+
+.individual-detail-box p:first-of-type {
+  font-weight: bold;
+}
+
+.individual-detail-box p:last-child {
+  margin-bottom: 0;
+}

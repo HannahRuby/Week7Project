@@ -12,7 +12,7 @@ export default function NewPost() {
 
   function handleSubmit(event) {
     event.preventDefault();
-    fetch("https://week7project-wdtk.onrender.com/users", {
+    fetch("https://week7project-wdtk.onrender.com", {
       method: "POST",
       body: JSON.stringify({ form }),
       headers: {

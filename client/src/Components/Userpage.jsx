@@ -13,12 +13,14 @@ const UserPage = () => {
   useEffect(() => {
     async function fetchData(users) {
       try {
-        const userResponse = await fetch(`http://localhost:8080/${user.id}`);
+        const userResponse = await fetch(
+          `https://week7project-wdtk.onrender.com/users${user.id}`
+        );
         const userData = await userResponse.json();
         setUser(userData);
 
         const postsResponse = await fetch(
-          `http://localhost:8080/users/${user.id}/posts`
+          `https://week7project-wdtk.onrender.com/users/${user.id}/posts`
         );
         const userPosts = await postsResponse.json();
         setPosts(userPosts);

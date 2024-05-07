@@ -11,7 +11,7 @@ export default function Post() {
     getUsers();
   }, []);
   async function getUsers() {
-    const response = await fetch("http://localhost:8080/users");
+    const response = await fetch("https://week7project-1-irbn.onrender.com");
     const data = await response.json();
     setUsers(data);
     console.log("data");

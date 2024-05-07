@@ -49,13 +49,6 @@ JOIN
   response.json(result.rows);
 });
 
-const posts = db.prepare("SELECT * FROM users").all();
-console.log("Posts retrieved from the database.");
-
-const parsedPosts = posts.map((post) => post.data);
-
-response.json(parsedPosts);
-
 // app.get("/comments", async (request, response) => {
 //   const result = await db.query(`SELECT
 //     posts.post_id,

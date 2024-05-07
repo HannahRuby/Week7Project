@@ -11,7 +11,9 @@ export default function Post() {
     getUsers();
   }, []);
   async function getUsers() {
-    const response = await fetch("https://week7project-1-irbn.onrender.com");
+    const response = await fetch(
+      "https://week7project-wdtk.onrender.com/users"
+    );
     const data = await response.json();
     setUsers(data);
     console.log("data");
